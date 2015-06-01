@@ -1,7 +1,3 @@
-# Author: Francesco Visin
-# Credits: Yann Dauphin, Francesco Visin
-# Licence: BSD 3-clause
-
 """
 Process the uncompressed Imagenet dataset.
 
@@ -11,6 +7,10 @@ filesystem (avoid wasting inodes). Each pickle file contains a list of tuple.
 The first element is the JPEG encoded image in a binary string and the second
 is the index of the class.
 """
+# Author: Francesco Visin
+# Credits: Yann Dauphin, Francesco Visin
+# Licence: BSD 3-clause
+
 import os
 import os.path
 import time
